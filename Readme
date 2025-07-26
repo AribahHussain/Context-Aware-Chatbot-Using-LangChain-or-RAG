@@ -1,0 +1,23 @@
+# 🤖 Context-Aware Chatbot with LangChain or RAG
+
+Build a conversational AI that:
+- 🧠 Maintains context with chat memory
+- 📂 Retrieves answers from custom documents via vector search
+- 🔍 Uses embeddings + vector store (FAISS / ChromaDB)
+- 🌐 Deploys with Gradio for an easy-to-use web interface
+
+## 🔧 Tech Stack
+- LangChain / RAG architecture
+- OpenAI or Hugging Face LLMs
+- FAISS / ChromaDB for document retrieval
+- SentenceTransformers (for embeddings)
+- Gradio (for deployment UI)
+
+## 🚀 Steps
+1. **Load Documents** → Preprocess and clean your dataset (PDFs, text, etc.)
+2. **Embed & Store** → Convert documents to vectors and store them
+3. **Build Chain** → Use LangChain for memory + retrieval components
+4. **Create UI** → Build chatbot UI using Gradio
+5. **Launch** → Chat in real-time with contextual responses
+
+> Suitable for research assistants, support bots, or internal knowledge chat systems.
